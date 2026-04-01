@@ -5,16 +5,22 @@ body{
 }
 
 .section1{
-    display: flex;
-    height: 100px;
     background-color: black;
+    height: 100px;
     margin: 0;
-    padding-left:150px ;
+    padding-left:160px ;
+}
+
+.topMenu{
+    padding-top: 10px;
+    display: flex;        
+    align-items: center;
+    height: 50px;
 }
 
 .logo{
-    display: flex;
-    align-items: center;
+    padding-top: 20px;
+    display: flex;    
     height: 55px;
 }
 
@@ -23,7 +29,58 @@ body{
     padding-right: 10px;
 }
 
-.section3{
+.navMenu{
+    padding-top: 20px;
+    display: flex;
+    height: 55px;
+}
+
+.navLink{
+    padding-left: 21px;
+    padding-top: 3px;
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.searchBar{
+    height: 35px;
+    width: 220px;
+    margin-left: 180px;
+    font-size: 16px;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.448);
+    border-radius: 7px;
+    padding-top: -50px;
+    color: white;
+}
+
+.downloadButton{
+    margin-left: 15px;
+    background-color: rgb(0, 120, 212);
+    color: white;
+    font-size: 16px;
+    padding-inline: 25px;
+    padding-block: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bottomMenu{
+    text-align: center;
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+    width: 1200px;
+}
+
+.versionLink{
+    color: rgb(0, 120, 212);
+    text-decoration: none;
+}
+
+.section2{
     display: flex
 }
 .section3{
