@@ -129,10 +129,41 @@ body{
     height: 500px;
 }
 
-
 .section3{
-    display: flex
+    display: flex;
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    justify-content: space-evenly;
 }
+
+.langList{
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    grid-template-rows: 55px 55px 55px 55px;
+}
+
+.langDetails{
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+.langLogo{
+    height: 40px;
+}
+
+.langName{
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+
+
+
+
+
 .section4{
     display: flex
 }
