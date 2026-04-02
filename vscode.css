@@ -2,7 +2,6 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
-    padding-bottom: 1000px;
 }
 
 .section1{
@@ -48,6 +47,10 @@ body{
     font-size: 17px;
 }
 
+.navLink:hover{
+    color: aliceblue;
+}
+
 .searchBar{
     height: 35px;
     width: 220px;
@@ -71,6 +74,12 @@ body{
     padding-block: 7px;
     border: none;
     border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.downloadButton:hover{
+    cursor: pointer;
+    background-color: rgb(10, 133, 228);;
 }
 
 .bottomMenu{
@@ -123,6 +132,23 @@ body{
     border: none;
     border-radius: 8px;
     margin-bottom: 20px;
+    transition: background-color 0.2s;
+}
+
+.downloadButton2:hover{
+    cursor: pointer;
+    background-color: #258ad7;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    padding: 13px 28px;
+
+}
+
+.downloadButton2:active{
+    cursor: pointer;
+    background-color: #58abeb;
+    border-color: yellowgreen;
 }
 
 .vsCode1{
@@ -159,14 +185,37 @@ body{
     font-size: 14px;
 }
 
-
-
-
-
-
 .section4{
+    padding-top: 100px;
+    background-color: rgb(14, 14, 14);
+    height: 250px;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-inline: 100px;
+
+
+}
+
+.s4Header{
+    text-align: center;
+}
+
+.s4Content{
+    width: 450px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.section5{
+    background-color: #333;
+    color: white;
+    height: 80px;
+    width: 100%;
     display: flex
 }
-.section5{
-    display: flex
+
+.s5Content{
+    padding-top: 20px;
+    padding-left: 150px;
 }
